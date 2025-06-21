@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+.expertadvisebg{
+  background-image: url('/assets/expertadvise.png');
+  width: 100%;
+  height: 605px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial-scroll-container {
+  overflow-x: auto;
+  padding-bottom: 8px; /* to leave room for scrollbar */
+}
+
+.testimonial-scroll-inner {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+}
+
+/* Optional: Scrollbar Styling */
+.testimonial-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.testimonial-scroll-container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.testimonial-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 8px;
+}
+
+.testimonial-scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
