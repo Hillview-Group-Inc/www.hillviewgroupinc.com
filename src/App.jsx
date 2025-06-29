@@ -1,30 +1,16 @@
 import "./App.css";
-import ApproachSection from "./Components/Approach.jsx";
-import ChallengesSection from "./Components/Challenges.jsx";
-import ClientSection from "./Components/Clients";
-import Elevate from "./Components/Elevate.jsx";
-import ExpertAdvise from "./Components/ExpertAdvise.jsx";
-import Footer from "./Components/Footer.jsx";
-import HeroCarousel from "./Components/Hero";
-import Hero from "./Components/Hero";
-import Industries from "./Components/Industries.jsx";
-import ServicesSection from "./Components/Services";
-import Testimonials from "./Components/Testimonials.jsx";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Homepage from "./Pages/Homepage.jsx";
+import AboutUs from "./Pages/AboutUs.jsx";
+import Services from "./Pages/Services.jsx";
 
 function App() {
   return (
-    <>
-      <HeroCarousel />
-      <ServicesSection />
-      <ClientSection/>
-      <ChallengesSection/>
-      <ApproachSection/>
-      <ExpertAdvise/>
-      <Industries/>
-      <Testimonials/>
-      <Elevate/>
-      <Footer/>
-    </>
+    <Routes>
+      <Route path="/" element={<Homepage/>} />
+      <Route path="/about-us" element={<AboutUs/>} />
+      <Route path="/services" element={<Services/>} />
+    </Routes>
   );
 }
 

@@ -5,7 +5,7 @@ function Elevate() {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100 flex flex-col items-center justify-center px-4 py-16">
       {/* Ready to Elevate Badge */}
       <div className="mb-8">
-        <span className="inline-block bg-green-400 text-white text-sm font-medium px-4 py-2 rounded-[4px] tracking-wide">
+        <span className="inline-block bg-[#8DC63F] text-white text-sm font-medium px-4 py-2 rounded-[4px] tracking-wide">
           READY TO ELEVATE?
         </span>
       </div>

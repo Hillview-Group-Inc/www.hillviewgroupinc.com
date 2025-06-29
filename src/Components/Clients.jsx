@@ -40,7 +40,7 @@ const ClientSection = () => {
         </div>
 
         {/* Main Heading */}
-        <h2 className="text-4xl md:text-5xl font-semibold text-white mb-16 w-full mx-auto leading-tight">
+        <h2 className="text-4xl md:text-5xl font-medium text-white mb-16 w-full mx-auto leading-tight">
           Trusted by High-Growth
           <br />
           Startups Across Industries

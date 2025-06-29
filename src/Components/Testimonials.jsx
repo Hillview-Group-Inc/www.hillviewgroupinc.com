@@ -30,7 +30,7 @@ function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-block px-6 py-2 bg-green-400 text-white rounded-full text-sm font-medium uppercase tracking-wide mb-6">
+          <div className="inline-block px-6 py-2 bg-[#8DC63F] text-white rounded-sm text-sm font-medium uppercase tracking-wide mb-6">
             Our Clients
           </div>
           <h2 className="text-4xl md:text-5xl font-medium text-gray-900">

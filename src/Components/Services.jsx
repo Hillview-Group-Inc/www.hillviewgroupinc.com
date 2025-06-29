@@ -30,7 +30,7 @@ export default function ServicesSection() {
           <div className="inline-flex items-center px-4 py-2 bg-green-500 text-white text-sm font-medium rounded-full mb-6">
             OUR SERVICES
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 max-w-4xl mx-auto leading-tight">
+          <h2 className="text-4xl lg:text-5xl font-medium text-gray-900 max-w-4xl mx-auto leading-tight">
             Our Expert Services to Drive Growth
           </h2>
         </div>
