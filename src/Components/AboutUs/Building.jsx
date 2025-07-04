@@ -2,7 +2,7 @@ import React from "react";
 
 function Building() {
   return (
-    <div className="bg-white py-20">
+    <div className="bg-white py-20 px-25">
       <div className="inline-block mb-8 ml-5 w-[719px]">
         <span className="bg-[#8DC63F] text-white px-4 py-2 rounded-[4px] text-sm font-medium uppercase tracking-wide mb-4">
           About Us

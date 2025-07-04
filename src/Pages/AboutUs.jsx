@@ -10,8 +10,8 @@ import WhoWeAre from '../Components/AboutUs/WhoWeAre'
 
 function AboutUs() {
   return (
-    <div className='w-full pt-12 px-25'>
-      <Navbar/>
+    <div className='w-full pt-12'>
+      <Navbar />
       <Building/>
       <WhoWeAre/>
       <CoreValues/>

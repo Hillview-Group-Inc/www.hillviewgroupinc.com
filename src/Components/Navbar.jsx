@@ -5,7 +5,7 @@ function Navbar() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
   return (
-    <div className="relative z-10">
+    <div className="relative z-10 px-25">
       <div
         className={`bg-white bg-opacity-95 backdrop-blur-sm mx-4 mt-4 rounded-[8px] !py-[5px] ${
           isHomePage ? "" : "border border-[#25AAE1]"
