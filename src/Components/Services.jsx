@@ -72,10 +72,15 @@ function ServiceCard({ service, isLarge = false }) {
         {/* Content */}
         <div className="absolute inset-0 p-8 lg:p-10 flex flex-col justify-between text-white">
           {/* Title at the top */}
-          <div>
-            <h3 className="text-2xl lg:text-3xl font-bold group-hover:transform group-hover:translate-y-[-4px] transition-transform duration-300">
+          <div className="w-full flex items-center justify-between">
+            <h3 className="text-xl lg:text-3xl font-semibold group-hover:transform group-hover:translate-y-[-4px] transition-transform duration-300">
               {service.title}
             </h3>
+            <div className="flex justify-end">
+              <div className="w-12 h-12 bg-cyan-400 rounded-full flex items-center justify-center group-hover:bg-cyan-300 group-hover:scale-110 transition-all duration-300 shadow-lg">
+                <ArrowRight className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" />
+              </div>
+            </div>
           </div>
           
           {/* Description and Arrow at the bottom */}
@@ -85,11 +90,7 @@ function ServiceCard({ service, isLarge = false }) {
             </p>
             
             {/* Arrow Button */}
-            <div className="flex justify-end">
-              <div className="w-12 h-12 bg-cyan-400 rounded-full flex items-center justify-center group-hover:bg-cyan-300 group-hover:scale-110 transition-all duration-300 shadow-lg">
-                <ArrowRight className="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" />
-              </div>
-            </div>
+      
           </div>
         </div>
         

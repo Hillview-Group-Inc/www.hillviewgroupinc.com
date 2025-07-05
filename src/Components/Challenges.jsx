@@ -8,14 +8,14 @@ const ChallengesSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
-            <div>
+            <div className="mb-1">
               <span className="inline-block bg-[#8DC63F] text-white px-4 py-2 rounded-[4px] text-sm font-medium mb-6">
                 FACING CHALLENGES
               </span>
-              <h2 className="text-4xl lg:text-4xl font-medium text-gray-900 leading-tight">
+              <h2 className="text-2xl lg:text-4xl font-medium text-gray-900 leading-tight mb-0">
                 Overcoming These Key Barriers
-                <br />
-                <span className="text-gray-700">Starts Here Today</span>
+                <br className="hidden lg:block"/>
+                <span className="text-gray-700"> Starts Here Today</span>
               </h2>
             </div>
 
@@ -26,9 +26,9 @@ const ChallengesSection = () => {
             </p>
 
             <div className="space-y-6">
-              <div className="flex items-center jusitfy-start space-x-4">
+              <div className="flex items-start md:items-center jusitfy-start space-x-4">
                 <img src="/assets/SVG.png" alt="" className="w-6 h-6  mt-1 flex-shrink-0" />
-                <div className="flex items-center justify-center gap-2">
+                <div className="flex flex-col md:flex-row items-start justify-start md:items-center md:justify-center gap-2">
                   <h3 className="text-xl font-medium text-gray-900">
                     Inefficient Processes - 
                   </h3>
@@ -38,9 +38,9 @@ const ChallengesSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-center justify-start space-x-4">
+              <div className="flex items-start md:items-center jusitfy-start space-x-4">
                 <img src="/assets/SVG.png" alt="" className="w-6 h-6 flex-shrink-0" />
-                <div className="flex items-center justify-center gap-2">
+                <div className="flex flex-col md:flex-row items-start justify-start md:items-center md:justify-center gap-2">
                   <h3 className="text-xl font-medium text-gray-900">
                     Inconsistent Growth - 
                   </h3>
@@ -50,9 +50,9 @@ const ChallengesSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-center justify-start space-x-4">
+              <div className="flex items-start md:items-center jusitfy-start space-x-4">
                 <img src="/assets/SVG.png" alt="" className="w-6 h-6  flex-shrink-0" />
-                <div className="flex items-center justify-center gap-2">
+                <div className="flex flex-col md:flex-row items-start justify-start md:items-center md:justify-center gap-2">
                   <h3 className="text-xl font-medium text-gray-900">
                     Limited Support -  
                   </h3>
