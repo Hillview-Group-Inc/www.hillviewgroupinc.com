@@ -8,16 +8,16 @@ function CoreValues() {
           OUR CORE VALUES
         </span>
       </div>
-      <h2 className="text-4xl md:text-5xl font-medium text-gray-800 mb-4 leading-tight">
+      <h2 className="text-2xl text-center md:text-left md:text-5xl font-medium text-gray-800 mb-4 leading-tight">
         The Principles That Drive Us Forward
       </h2>
-      <span className="text-[#606060] text-[16px] w-[719px] mb-20 text-center">
+      <span className="text-[#606060] text-[16px] w-full md:w-[719px] mb-20 text-center">
         At Hillview Group, our values are more than words—they're the foundation
         of every project, partnership, and product. They shape how we work, how
         we grow, and how we help our clients thrive in a constantly evolving
         digital world.
       </span>
-      <div className="flex items-center justify-between gap-6">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <div
           className="w-[292px] h-[280px] rounded-xl bg-white px-6 pt-6"
           style={{

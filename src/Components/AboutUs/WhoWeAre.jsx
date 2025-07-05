@@ -2,12 +2,12 @@ import React from "react";
 
 function WhoWeAre() {
   return (
-    <div className="bg-white py-20 px-25">
-      <div className="inline-block mb-8 ml-5 w-[719px]">
-        <span className="bg-[#8DC63F] text-white px-4 py-2 rounded-[4px] text-sm font-medium uppercase tracking-wide mb-4">
+    <div className="bg-white lg:py-20 px-3 lg:px-25">
+      <div className="inline-block mb-8 ml-5 w-full lg:w-[719px]">
+        <span className="bg-[#8DC63F] text-white px-4 py-2 rounded-[4px] text-sm font-medium uppercase tracking-wide mb-[16px]">
           Who We are
         </span>
-        <h2 className="text-4xl md:text-[68px] font-medium text-gray-800 leading-tight mb-2">
+        <h2 className="text-4xl md:text-[68px] font-medium text-gray-800 leading-tight mt-4 mb-2">
           Driven by Purpose, Defined by Innovation
         </h2>
         <span className="text-[#606060] text-[16px] w-[719px] mt-2 mb-20">
@@ -21,12 +21,17 @@ function WhoWeAre() {
           problem-solving.
         </span>
       </div>
-      <div className="flex items-center justify-between gap-6">
-        <div className="w-1/2 h-[225px] bg-[#D3EEF9] rounded-[16px] relative pl-10 pt-10 overflow-hidden">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="w-full md:w-1/2 h-[225px] bg-[#D3EEF9] rounded-[16px] relative pl-10 pt-10 overflow-hidden">
           <img
             src="/assets/Vector (9).png"
             alt=""
-            className="absolute right-0 bottom-0"
+            className="absolute right-0 bottom-0 hidden lg:block"
+          />
+          <img
+            src="/assets/Vector (10).png"
+            alt=""
+            className="absolute right-0 bottom-0 block lg:hidden"
           />
           <div className="w-[466px]">
             <h1 className="text-[32px] font-medium">Our Mission</h1>
@@ -36,11 +41,16 @@ function WhoWeAre() {
             </p>
           </div>
         </div>
-        <div className="w-1/2 h-[225px] bg-[#E8F4D9] rounded-[16px] relative pl-10 pt-10 overflow-hidden">
+        <div className="w-full md:w-1/2 h-[225px] bg-[#E8F4D9] rounded-[16px] relative pl-10 pt-10 overflow-hidden">
           <img
             src="/assets/misc (1).png"
             alt=""
-            className="absolute right-0 bottom-0"
+            className="absolute right-0 bottom-0 hidden lg:block"
+          />
+          <img
+            src="/assets/Vector (11).png"
+            alt=""
+            className="absolute right-0 bottom-0 block lg:hidden"
           />
           <div className="w-[466px]">
             <h1 className="text-[32px] font-medium">Our Vision</h1>
