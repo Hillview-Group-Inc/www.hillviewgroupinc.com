@@ -8,7 +8,7 @@ import ContactPage from "../Components/ContactUs";
 
 function Contact() {
   return (
-    <div className="w-full pt-12">
+    <div className="w-full pt-5 lg:pt-12">
       <Navbar />
       <ContactPage/>
       <ExpertAdvise />
