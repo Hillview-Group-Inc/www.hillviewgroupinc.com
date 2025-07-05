@@ -9,10 +9,10 @@ export default function WhyUs() {
           <div className="inline-block bg-green-400 text-white px-4 py-2 rounded-md text-sm font-medium mb-6">
             WHY US
           </div>
-          <h1 className="text-5xl font-medium text-gray-900 mb-4 leading-tight">
+          <h1 className="text-2xl lg:text-5xl font-medium text-gray-900 mb-4 leading-tight">
             Your Vision. Our Expertise.
           </h1>
-          <h2 className="text-5xl font-medium text-gray-900 mb-8 leading-tight">
+          <h2 className="text-2xl lg:text-5xl font-medium text-gray-900 mb-8 leading-tight">
             Limitless Possibilities.
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed max-w-4xl">
@@ -26,9 +26,9 @@ export default function WhyUs() {
         </div>
 
         {/* Cards Grid */}
-        <div className="w-full flex items-center justify-center gap-6 mb-5">
+        <div className="w-full flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 mb-5">
           {/* Client-Centric Approach Card */}
-          <div className="relative rounded-2xl overflow-hidden h-80 group w-[45%]">
+          <div className="relative rounded-2xl overflow-hidden h-80 group w-full md:w-[45%]">
             <img
               src="assets/whyus (2).png"
               alt="Client-Centric Approach"
@@ -60,7 +60,7 @@ export default function WhyUs() {
           </div>
 
           {/* Expert Team Card */}
-          <div className="relative rounded-2xl overflow-hidden h-80 group w-[55%]">
+          <div className="relative rounded-2xl overflow-hidden h-80 group w-full md:w-[55%]">
             <img
               src="assets/whyus (1).png"
               alt="Expert Team"
@@ -87,9 +87,9 @@ export default function WhyUs() {
           </div>
         </div>
         
-        <div className="w-full flex items-center justify-center gap-6">
+        <div className="w-full flex flex-col md:flex-row items-center justify-center gap-6">
           {/* Innovative Solutions Card */}
-          <div className="relative rounded-2xl overflow-hidden h-80 group w-[30%]">
+          <div className="relative rounded-2xl overflow-hidden h-80 group w-full md:w-[30%]">
             <img
               src="assets/whyus (3).png"
               alt="Innovative Solutions"
@@ -119,7 +119,7 @@ export default function WhyUs() {
           </div>
 
           {/* Proven Track Record Card */}
-          <div className="relative rounded-2xl overflow-hidden h-80 group w-[70%]">
+          <div className="relative rounded-2xl overflow-hidden h-80 group w-full md:w-[70%]">
             <img
               src="assets/whyus (4).png"
               alt="Proven Track Record"

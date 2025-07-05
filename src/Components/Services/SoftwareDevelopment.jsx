@@ -4,7 +4,7 @@ export default function SoftwareDevelopmentComponent() {
   return (
     <div className="bg-white min-h-screen">
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="flex jsutify-between items-start gap-12">
+        <div className="flex flex-col-reverse md:flex-row jsutify-between items-start gap-12">
           {/* Left Content Section */}
           <div className="lg:col-span-2 space-y-12">
             {/* Software Development Section */}

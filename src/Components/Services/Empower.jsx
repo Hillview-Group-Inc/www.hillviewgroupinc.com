@@ -8,9 +8,9 @@ function Empower() {
           OUR CLIENTS
         </span>
       </div>
-      <span className="text-[38px] text-[#333333] font-medium">Empowering Your Digital Transformation</span>
-      <span className="text-[#606060] text-[16px] w-[719px] mt-2 mb-20">At Hillview Group, we specialize in delivering cutting-edge solutions that drive innovation and efficiency. Our comprehensive services are designed to help individuals and businesses thrive in the digital age.</span>
-      <img src="/assets/services1.png" alt="" />
+      <span className="text-[26px] lg:text-[38px] text-[#333333] font-medium text-center md:text-left">Empowering Your Digital Transformation</span>
+      <span className="text-[#606060] text-center text-[16px] md:w-[719px] mt-2 mb-10 lg:mb-20">At Hillview Group, we specialize in delivering cutting-edge solutions that drive innovation and efficiency. Our comprehensive services are designed to help individuals and businesses thrive in the digital age.</span>
+      <img src="/assets/services1.png" alt=""  className="w-[90%] object-cover md:w-full"/>
     </div>
   );
 }

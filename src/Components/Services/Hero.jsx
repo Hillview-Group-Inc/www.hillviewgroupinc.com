@@ -10,7 +10,7 @@ import WhyUs from './WhyUs'
 
 function Hero() {
   return (
-    <div className='w-full pt-12 px-25'>
+    <div className='w-full pt-12 md:px-25'>
       <Navbar/>
       <Empower/>
       <SoftwareDevelopmentComponent/>
