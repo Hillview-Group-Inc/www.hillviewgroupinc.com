@@ -12,13 +12,13 @@ function WhoWeAre() {
         </h2>
         <span className="text-[#606060] text-[16px] w-[719px] mt-2 mb-20">
           Hillview Group is a technology-driven solutions provider based in
-          Nigeria, dedicated to delivering excellence in software development,
-          IT training, and business consultancy. From startups to large
-          enterprises, our clients trust us to provide scalable, sustainable
-          solutions that drive real impact. With a team of experienced
-          developers, instructors, and consultants, we pride ourselves on
-          combining deep technical expertise with a personalized approach to
-          problem-solving.
+          Richmond VA, dedicated to delivering excellence in software
+          development, IT training, and business consultancy. From individuals
+          to large enterprises & government agencies, our clients trust us to
+          provide scalable, sustainable solutions that drive real impact. With a
+          team of experienced developers, instructors, and consultants, we pride
+          ourselves on combining deep technical expertise with a personalized
+          approach to problem-solving.
         </span>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
@@ -36,8 +36,9 @@ function WhoWeAre() {
           <div className="w-[466px]">
             <h1 className="text-[32px] font-medium">Our Mission</h1>
             <p className="text-[#4A4A4A] text-[18px]">
-              To enable businesses and individuals to thrive in a digital world
-              by providing reliable, innovative, and user-centered solutions.
+              To enable businesses, government and individuals to thrive in a
+              digital world by providing reliable, innovative, and user-centered
+              solutions.
             </p>
           </div>
         </div>
@@ -55,8 +56,8 @@ function WhoWeAre() {
           <div className="w-[466px]">
             <h1 className="text-[32px] font-medium">Our Vision</h1>
             <p className="text-[#4A4A4A] text-[18px]">
-              To be a leading African technology company, recognized globally
-              for transforming ideas into impactful digital experiences.
+              To be a leading technology company, recognized globally for
+              transforming ideas into impactful digital experiences.
             </p>
           </div>
         </div>

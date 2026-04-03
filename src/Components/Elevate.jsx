@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Elevate() {
   return (
@@ -17,12 +18,12 @@ function Elevate() {
       
       {/* Action Buttons */}
       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 mb-12 sm:mb-14 lg:mb-16 w-full max-w-xs sm:max-w-none">
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full transition-colors duration-200 w-full sm:w-auto sm:min-w-32 lg:min-w-40 text-sm sm:text-base">
+        <Link to="/contact#contact-form" className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full transition-colors duration-200 w-full sm:w-auto sm:min-w-32 lg:min-w-40 text-sm sm:text-base text-center">
           Let's talk
-        </button>
-        <button className="bg-transparent border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white font-medium px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full transition-colors duration-200 w-full sm:w-auto sm:min-w-32 lg:min-w-40 text-sm sm:text-base">
+        </Link>
+        <Link to="/services" className="bg-transparent border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white font-medium px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full transition-colors duration-200 w-full sm:w-auto sm:min-w-32 lg:min-w-40 text-sm sm:text-base text-center">
           Learn more
-        </button>
+        </Link>
       </div>
       
       {/* Professional Image */}

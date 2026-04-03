@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ApproachSection() {
   const steps = [
@@ -42,12 +43,12 @@ export default function ApproachSection() {
               </h1>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full font-medium transition-colors">
+                <Link to="/contact#contact-form" className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full font-medium transition-colors text-center">
                   Let's talk
-                </button>
-                <button className="border-2 border-blue-500 text-blue-500 hover:bg-blue-50 px-8 py-3 rounded-full font-medium transition-colors">
+                </Link>
+                <Link to="/services" className="border-2 border-blue-500 text-blue-500 hover:bg-blue-50 px-8 py-3 rounded-full font-medium transition-colors text-center">
                   Learn more
-                </button>
+                </Link>
               </div>
             </div>
             
