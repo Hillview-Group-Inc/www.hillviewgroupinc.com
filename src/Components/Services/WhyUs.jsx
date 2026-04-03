@@ -16,11 +16,11 @@ export default function WhyUs() {
             Limitless Possibilities.
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed max-w-4xl">
-            We don't just deliver services—we build partnerships. At Hillview
+            We don't just deliver services, we build partnerships. At Hillview
             Group, we align our technical expertise with your goals to create
-            lasting impact. Whether you're a startup, a growing business, or an
-            enterprise looking to scale, our solutions are designed to empower
-            your journey through innovation, reliability, and measurable
+            lasting impact. Whether you're an individual, a growing business, or
+            a government agency looking to scale, our solutions are designed to
+            empower your journey through innovation, reliability, and measurable
             results.
           </p>
         </div>
@@ -86,7 +86,7 @@ export default function WhyUs() {
             </div>
           </div>
         </div>
-        
+
         <div className="w-full flex flex-col md:flex-row items-center justify-center gap-6">
           {/* Innovative Solutions Card */}
           <div className="relative rounded-2xl overflow-hidden h-80 group w-full md:w-[30%]">
@@ -110,7 +110,9 @@ export default function WhyUs() {
               }}
             />
             <div className="absolute bottom-0 left-0 right-0 p-8 text-white z-10">
-              <h3 className="text-2xl font-medium mb-3">Innovative Solutions</h3>
+              <h3 className="text-2xl font-medium mb-3">
+                Innovative Solutions
+              </h3>
               <p className="text-gray-200 text-lg">
                 We harness the latest technologies to deliver forward-thinking
                 results.

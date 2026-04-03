@@ -26,13 +26,13 @@ function Navbar() {
       >
         <div className="flex items-center justify-between px-2 sm:px-6 py-2 sm:py-4">
           {/* Logo */}
-          <div className="flex items-center space-x-2 flex-shrink-0">
-            <img 
-              src="/assets/logo.png" 
-              alt="Logo" 
+          <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
+            <img
+              src="/assets/logo.png"
+              alt="Logo"
               className="h-8 sm:h-10 w-auto"
             />
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8 xl:gap-7">
@@ -52,9 +52,9 @@ function Navbar() {
           </nav>
 
           {/* Desktop CTA Button */}
-          <button className="hidden sm:block bg-cyan-400 hover:bg-cyan-500 text-white px-4 sm:px-8 xl:px-12 py-2 rounded-lg font-medium transition-colors text-sm xl:text-base flex-shrink-0">
+          <Link to="/contact#contact-form" className="hidden sm:block bg-cyan-400 hover:bg-cyan-500 text-white px-4 sm:px-8 xl:px-12 py-2 rounded-lg font-medium transition-colors text-sm xl:text-base flex-shrink-0">
             Let's talk
-          </button>
+          </Link>
 
           {/* Mobile Menu Button */}
           <button
@@ -105,9 +105,9 @@ function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <button className="sm:hidden bg-cyan-400 hover:bg-cyan-500 text-white px-6 py-2 rounded-lg font-medium transition-colors text-base mt-4 w-full">
+              <Link to="/contact#contact-form" onClick={() => setIsMenuOpen(false)} className="sm:hidden bg-cyan-400 hover:bg-cyan-500 text-white px-6 py-2 rounded-lg font-medium transition-colors text-base mt-4 w-full text-center">
                 Let's talk
-              </button>
+              </Link>
             </nav>
           </div>
         )}

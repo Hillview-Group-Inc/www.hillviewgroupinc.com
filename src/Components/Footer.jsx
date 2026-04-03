@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const [email, setEmail] = useState('');
@@ -17,11 +18,11 @@ function Footer() {
         <div className="block md:hidden">
           {/* Logo */}
           <div className="flex justify-center mb-8">
-            <div className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-green-400 rounded"></div>
               <div className="text-xl font-bold text-gray-800">HILLVIEW</div>
               <div className="text-sm text-gray-500">GROUP INC</div>
-            </div>
+            </Link>
           </div>
 
           {/* Newsletter Signup */}
@@ -50,10 +51,10 @@ function Footer() {
             <div>
               <h3 className="text-gray-500 text-sm font-medium mb-4">Site map</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors text-sm">Home</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors text-sm">Services</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors text-sm">About Us</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors text-sm">Contact</a></li>
+                <li><Link to="/" className="text-gray-800 hover:text-blue-500 transition-colors text-sm">Home</Link></li>
+                <li><Link to="/services" className="text-gray-800 hover:text-blue-500 transition-colors text-sm">Services</Link></li>
+                <li><Link to="/about-us" className="text-gray-800 hover:text-blue-500 transition-colors text-sm">About Us</Link></li>
+                <li><Link to="/contact" className="text-gray-800 hover:text-blue-500 transition-colors text-sm">Contact</Link></li>
               </ul>
             </div>
 
@@ -96,11 +97,11 @@ function Footer() {
         <div className="hidden md:block lg:hidden">
           {/* Logo */}
           <div className="flex justify-center mb-8">
-            <div className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-r from-blue-400 to-green-400 rounded"></div>
               <div className="text-2xl font-bold text-gray-800">HILLVIEW</div>
               <div className="text-base text-gray-500">GROUP INC</div>
-            </div>
+            </Link>
           </div>
 
           {/* Newsletter Signup */}
@@ -129,10 +130,10 @@ function Footer() {
             <div className="text-center">
               <h3 className="text-gray-500 text-sm font-medium mb-4">Site map</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">Home</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">Services</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">About Us</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">Contact</a></li>
+                <li><Link to="/" className="text-gray-800 hover:text-blue-500 transition-colors">Home</Link></li>
+                <li><Link to="/services" className="text-gray-800 hover:text-blue-500 transition-colors">Services</Link></li>
+                <li><Link to="/about-us" className="text-gray-800 hover:text-blue-500 transition-colors">About Us</Link></li>
+                <li><Link to="/contact" className="text-gray-800 hover:text-blue-500 transition-colors">Contact</Link></li>
               </ul>
             </div>
 
@@ -177,21 +178,21 @@ function Footer() {
           <div className="flex items-start justify-between gap-8 mb-12">
             {/* Logo */}
             <div className="md:col-span-1">
-              <div className="flex items-center space-x-2">
+              <Link to="/" className="flex items-center space-x-2">
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-green-400 rounded"></div>
                 <div className="text-2xl font-bold text-gray-800">HILLVIEW</div>
                 <div className="text-base text-gray-500">GROUP INC</div>
-              </div>
+              </Link>
             </div>
 
             {/* Site Map */}
             <div>
               <h3 className="text-gray-500 text-sm font-medium mb-4">Site map</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">Home</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">Services</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">About Us</a></li>
-                <li><a href="#" className="text-gray-800 hover:text-blue-500 transition-colors">Contact</a></li>
+                <li><Link to="/" className="text-gray-800 hover:text-blue-500 transition-colors">Home</Link></li>
+                <li><Link to="/services" className="text-gray-800 hover:text-blue-500 transition-colors">Services</Link></li>
+                <li><Link to="/about-us" className="text-gray-800 hover:text-blue-500 transition-colors">About Us</Link></li>
+                <li><Link to="/contact" className="text-gray-800 hover:text-blue-500 transition-colors">Contact</Link></li>
               </ul>
             </div>
 

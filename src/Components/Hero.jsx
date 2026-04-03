@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const HeroCarousel = () => {
@@ -57,7 +58,9 @@ const HeroCarousel = () => {
                     <div style="font-size: 12px; margin-top: 10px;">${slide.image}</div>
                   </div>`;
                 }}
-                onLoad={() => console.log(`Successfully loaded: ${slide.image}`)}
+                onLoad={() =>
+                  console.log(`Successfully loaded: ${slide.image}`)
+                }
               />
             </div>
           </div>
@@ -83,14 +86,18 @@ const HeroCarousel = () => {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl font-regular text-gray-200 mb-6 sm:mb-8 max-w-2xl mx-auto md:mx-0 leading-relaxed">
-            Delivering bespoke, outcome-focused solutions that enhance
-            workflows, augment productivity and expedite corporate expansion.
+            We partner with you and your business to make sure technology works
+            for you. Our solutions enhance your workflows and improve
+            productivity.
           </p>
 
           <div className="flex flex-row justify-center gap-3 sm:gap-4 max-w-md mx-auto md:mx-0">
-            <button className="flex-1 bg-cyan-400 hover:bg-cyan-500 text-white px-4 sm:px-6 py-3 sm:py-4 rounded-lg font-medium text-sm sm:text-base transition-colors">
+            <Link
+              to="/contact#contact-form"
+              className="flex-1 bg-cyan-400 hover:bg-cyan-500 text-white px-4 sm:px-6 py-3 sm:py-4 rounded-lg font-medium text-sm sm:text-base transition-colors text-center"
+            >
               Let's talk
-            </button>
+            </Link>
             <button className="flex-1 border-2 border-white text-white hover:bg-white hover:text-gray-900 px-4 sm:px-6 py-3 sm:py-4 rounded-lg font-medium text-sm sm:text-base transition-colors">
               Learn more
             </button>

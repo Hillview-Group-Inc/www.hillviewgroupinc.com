@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import ExpertAdvise from "../Components/ExpertAdvise";
@@ -7,6 +8,15 @@ import Elevate from "../Components/Elevate";
 import ContactPage from "../Components/ContactUs";
 
 function Contact() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [hash]);
+
   return (
     <div className="w-full pt-5 lg:pt-12">
       <Navbar />
