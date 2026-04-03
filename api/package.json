@@ -1,0 +1,11 @@
+{
+  "name": "hillview-api",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  }
+}
