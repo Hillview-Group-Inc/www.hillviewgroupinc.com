@@ -1,7 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Elevate() {
+  const navigate = useNavigate()
+
+  const handleLetsTalk = () => {
+    const el = document.getElementById('contact-form')
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      navigate('/contact#contact-form')
+    }
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
       {/* Ready to Elevate Badge */}
@@ -18,9 +29,9 @@ function Elevate() {
       
       {/* Action Buttons */}
       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 mb-12 sm:mb-14 lg:mb-16 w-full max-w-xs sm:max-w-none">
-        <Link to="/contact#contact-form" className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full transition-colors duration-200 w-full sm:w-auto sm:min-w-32 lg:min-w-40 text-sm sm:text-base text-center">
+        <button onClick={handleLetsTalk} className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full transition-colors duration-200 w-full sm:w-auto sm:min-w-32 lg:min-w-40 text-sm sm:text-base text-center">
           Let's talk
-        </Link>
+        </button>
         <Link to="/services" className="bg-transparent border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white font-medium px-6 sm:px-8 lg:px-10 py-3 sm:py-3.5 lg:py-4 rounded-full transition-colors duration-200 w-full sm:w-auto sm:min-w-32 lg:min-w-40 text-sm sm:text-base text-center">
           Learn more
         </Link>
