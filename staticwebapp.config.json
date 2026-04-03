@@ -1,4 +1,17 @@
 {
+  "routes": [
+    {
+      "route": "/favicon.ico",
+      "serve": "/favicon.ico",
+      "statusCode": 200,
+      "headers": {
+        "content-type": "image/x-icon"
+      }
+    }
+  ],
+  "mimeTypes": {
+    ".ico": "image/x-icon"
+  },
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": ["/assets/*", "/fonts/*", "/favicon.ico", "/*.ico", "/*.css", "/*.js", "/*.png", "/*.jpg", "/*.svg", "/*.webp"]
